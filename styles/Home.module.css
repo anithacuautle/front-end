@@ -18,8 +18,9 @@
 }
 
 .nav_hero{
-  color: #fff;
+  color: #000;
   height: 70px;
+  font-family: 'Baskerville Old Face';
   border-bottom: 1px solid rgba(90, 120, 134, 0.651);
 }
 
@@ -57,12 +58,12 @@
 }
 
 .link_active{
-  color:#f4bd76;
+  color:#000;
   font-weight: 700;
 }
 
 .point{
-  color: #f4bd76;
+  color: #000;
 }
 
 .hero_main{
@@ -71,6 +72,7 @@
   align-items: center;
   padding: 100px 0;
   width: 90%;
+  font-family: 'Baskerville Old Face';
   max-width: 1200%;
   margin: 0 auto;
   overflow: hidden;
@@ -85,11 +87,11 @@
 .title{
   font-size: 46px;
   font-weight: 300;
-  color: #fff;
+  color: #000;
 }
 
 .title_active{
-  color: #f4bd76;
+  color: #000;
   font-weight: 700;
 }
 .copy{
@@ -114,17 +116,21 @@
 /*services*/
 .services{
   background: #fafafa;
+  font-family: 'Baskerville Old Face';
 }
 .subtitle{
   font-size: 42px;
+  font-family: 'Baskerville Old Face';
 }
 .copy_section{
+  font-family: 'Baskerville Old Face';
   color: #30353b;
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 60px;
 }
 .container_cards{
+  font-family: 'Baskerville Old Face';
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,6 +138,7 @@
   
 }
 .card{
+  font-family: 'Baskerville Old Face';
   text-align: center;
   width: 350px;
   height: 500px;
@@ -149,26 +156,31 @@
   border-radius: 10px 0 0 10px;
 }
 .card_text{
+  font-family: 'Baskerville Old Face';
   width: 95%;
   margin-left: auto;
   padding-right: 25px;
 }
 .card_list{
+  font-family: 'Baskerville Old Face';
   color: #f6cd8f;
   font-weight: 700;
   margin: 25px 0 12 px;
   font-size: 18px;
 }
 .card_title{
+  font-family: 'Baskerville Old Face';
   font-size: 14px;
   color: #fff;
   margin-bottom: 8px;
 }
 .card_copy{
+  font-family: 'Baskerville Old Face';
   color: #f79dd990;
   margin-bottom: 16px;
 }
 .card_button{
+  font-family: 'Baskerville Old Face';
   display: block;
   background: linear-gradient(180deg,#f7ce90 0,#f4bd76 100%);
   border-radius: 6px;
@@ -180,10 +192,12 @@
   padding: 12px 0;
 }
 .footer{
+  font-family: 'Baskerville Old Face';
   background: #fafafa;
   text-align: center;
 }
 .footer_copy{
+  font-family: 'Baskerville Old Face';
   text-align: center;
   width: 100%;
   padding: 12px 0;
@@ -197,6 +211,7 @@
 }
 
 .pol_priva{
+  font-family: 'Baskerville Old Face';
   color: inherit;
   padding: 12px 250px 0;
   text-decoration: underline;
@@ -204,6 +219,7 @@
   margin-right: 10px;
 }
 .contact{
+  font-family: 'Baskerville Old Face';
   display: inline-block;
   color: inherit;
   text-decoration: none;
@@ -358,3 +374,4 @@
   margin-left: 35%;
   left: calc(50% - 50px);
 }
+

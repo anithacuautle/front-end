@@ -8,7 +8,9 @@ export default function Home() {
             <div className={styles.nav_container}>
                 <div class="logo">
                     <h2 className={styles.logo_name}>Nutrína<span className={styles.point}>.</span></h2>
+                    <img src='nutrina.png'></img>
                 </div>
+                
                 <div className={styles.link}>
                     <a href="#" class="link">Inicio</a> &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="#" class="link">Preguntas Frecuentes</a> &nbsp;&nbsp;&nbsp;&nbsp;
