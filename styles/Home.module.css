@@ -33,13 +33,18 @@
 }
 
 .logo_name{
-  font-size: 24px; 
-  padding: 10px ;
-  width: 90%;
+  font-size: 14px; 
+  width: 600%;
   max-width: 1200%;
-  margin: 50%;
+  margin: 10%;
   overflow: hidden;
   height: auto;
+}
+.imagen{ 
+  left: 7%;
+  position: relative;
+  width: 11%;
+  height: 74px;
 }
 
 .hero{
@@ -63,7 +68,11 @@
 }
 
 .point{
-  color: #000;
+  font-size: 13px; 
+  width: 120%;
+  margin: 10%;
+  overflow: hidden;
+  height: auto;
 }
 
 .hero_main{
@@ -96,8 +105,8 @@
 }
 .copy{
   font-size: 24px;
-  color: #ffffff80;
-  text-shadow: 0 8px 8px #00000033;
+  color: #000;
+  text-shadow: 0 8px 8px #ffffff80;
   margin: 15px 0;
 }
 .copy_active{
@@ -151,7 +160,7 @@
 }
 .card_img{
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
@@ -213,10 +222,11 @@
 .pol_priva{
   font-family: 'Baskerville Old Face';
   color: inherit;
-  padding: 12px 250px 0;
+  width: 20%;
   text-decoration: underline;
   display: inline-block;
-  margin-right: 10px;
+  position:relative;
+  left: 29.6%;
 }
 .contact{
   font-family: 'Baskerville Old Face';
@@ -229,10 +239,11 @@
 }
 
 @media screen and (max-widht:900px) {
-  .mockup{
+  .mockup {
     width: 600px;
     height: auto;
   }
+  
   .title{
     font-size: 50px;
   }
@@ -248,6 +259,59 @@
   .services .card{
     width: 45%;
   }
+}
+@media screen and (max-widht:700px){
+  main .container,
+  footer .container{
+    padding: 60px 0;
+  }
+  .nav_container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .nav_hero{
+    height: auto;
+  }
+  .logo{
+    padding: 15px 0;
+    text-align: center;
+  }
+  .link{
+    padding: 7px 10px;
+  }
+  .hero_main{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: auto;
+    padding: 30px 0;
+  }
+  .mockup{
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .title{
+    font-size: 35px;
+  }
+  .copy{
+    font-size: 20px;
+  }
+  .subtitle{
+    font-size: 35px;
+    text-align: center;
+  }
+  .copy_section{
+    font-size: 20px;
+    text-align: center;
+  }
+  .services .card{
+    width: 80px;
+  }
+  .contact{
+    width: 100%;
+    padding: 30px 0;
+  }
+
 }
 
 
