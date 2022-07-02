@@ -14,10 +14,10 @@ export default function Home() {
                 <img src='nutrina1.png' className={styles.imagen}/>
                 <div className={styles.link}>
                 
-                    <a href="#" class="link">Inicio</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">Preguntas Frecuentes</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">Contacto</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">Inicio de seión</a>
+                    <a href="#" className={styles.link}>Inicio</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" className={styles.link}>Preguntas Frecuentes</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" className={styles.link}>Contacto</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" className={styles.link}>Inicio de seión</a>
 
                 </div>
             </div>
