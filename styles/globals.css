@@ -196,6 +196,7 @@ body {
 .sidebar .profile-details .job{
   font-size: 12px;
 }
+
 /*alta*/
 .cont{
   position: relative;
@@ -357,4 +358,55 @@ form .button input:hover{
   .user-detail::-webkit-scrollbar{
     width: 0;
   }
+}
+/*Alta 2*/
+.contenedor{
+  position: relative;
+  top: -410px;
+  left: 200%;
+  max-width: 700px;
+  width: 150%;
+  padding: 15px 20px;
+  background: #EBF1F3;
+  border-radius: 5px;
+}
+.contenedor .titl{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.contenedor .titl::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: #34A2B7;
+}
+.contenedor form .user-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 0 0 57px ;
+  
+}
+form .user-details .input-box{
+  margin-bottom: 5px;
+  width: calc(100% /2 - 10px);
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #34A2B7;
+}
+.user-details .input-box input{
+  height: 35px;
+  width: 170%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
 }

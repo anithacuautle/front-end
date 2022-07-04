@@ -75,54 +75,23 @@ export default function dual() {
                </li>
            
            <div>
-           <div class="cont">
-               <div class="titl">Registro</div>
+           <div class="contenedor">
+               <div class="titl">Registro Signos Vitales</div>
                <form action='#'>
-                   <div class="user-detail">
+                   <div class="user-details">
                        <div class="input-box">
-                           <span class="details">Nombre</span>
-                           <input type="text" placeholder="Nombre" required></input>
-                       </div>
-                       <div class="input-box">
-                           <span class="details">Edad</span>
-                           <input type="text" placeholder="Edad" required></input>
+                           <span class="details">Glucosa Capilar</span>
+                           <input type="text" placeholder="Glucosa capilar" required></input>
                        </div>
                        <div class="input-box">
-                           <span class="details">Ocupación</span>
-                           <input type="text" placeholder="Ocupación" required></input>
+                           <span class="details">Frecuencia Cardiaca</span>
+                           <input type="text" placeholder="Frecuencia Cardiaca" required></input>
                        </div>
                        <div class="input-box">
-                           <span class="details">Número Telefónico</span>
-                           <input type="text" placeholder="Número de Telefónico" required></input>
+                           <span class="details">Tensión Arterial</span>
+                           <input type="text" placeholder="Tensión Arterial" required></input>
                        </div>
-                       <div class="input-box">
-                           <span class="details">E-mail</span>
-                           <input type="text" placeholder="E-mail" required></input>
-                       </div>
-                       <div class="input-box1">
-                           <span class="details1">Motivo de consulta</span>
-                           <input class="mes" type="text" placeholder="Consulta" required></input>
-                       </div>
-                   </div>
-                   <div class="gender-details">
-                       <input type="radio" name="gender" id="dot-1"></input>
-                       <input type="radio" name="gender" id="dot-2"></input>
-                       <input type="radio" name="gender" id="dot-3"></input>
-                   <span class="gender-title">Género</span>
-                   <div class="category">
-                       <label for="dot-1">
-                           <span class="dot one"></span>
-                           <span class="gender">Hombre</span>
-                       </label>
-                       <label for="dot-2">
-                           <span class="dot two"></span>
-                           <span class="gender">Mujer</span>
-                       </label>
-                       <label for="dot-3">
-                           <span class="dot three"></span>
-                           <span class="gender">Prefiero no decirlo</span>
-                       </label>
-                   </div>
+                       
                    </div>
                    <div class="button">
                        <input type="submit" value="Registrar"></input>

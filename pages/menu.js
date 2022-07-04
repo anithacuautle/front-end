@@ -13,7 +13,7 @@ export default function dual() {
            <li>
                <a href='#'>
                <i class='bx bx-search'></i>
-                 <input type="text" placeholder="Search.."></input>
+                 <input type="text" placeholder="Search.." class="bus"></input>
                </a>
                </li>
 
@@ -73,9 +73,9 @@ export default function dual() {
              <i class='bx bx-log-out'></i>
            </div>
            
-               </li>
-           </ul></ul>
-           
+           </li>
+           </ul>
+           </ul>
   </div>
 
     )}
