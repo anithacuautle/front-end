@@ -392,7 +392,7 @@ form .button input:hover{
   
 }
 form .user-details .input-box{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   width: calc(100% /2 - 10px);
 }
 .user-details .input-box input:focus,
@@ -409,4 +409,20 @@ form .user-details .input-box{
   font-size: 16px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
+}
+@media (max-width: 584px) {
+  .contenedor{
+    max-width: 100px;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .contenedor form .user-details{
+    max-width: 300px;
+    overflow-y: scroll;
+  }
+  .user-detail::-webkit-scrollbar{
+    width: 0;
+  }
 }
