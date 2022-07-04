@@ -93,7 +93,7 @@ export default function dual() {
                        </div>
                        <div class="input-box">
                            <span class="details">Número Telefónico</span>
-                           <input type="text" placeholder="Número de Telefónico" required></input>
+                           <input type="text" placeholder="Número Telefónico" required></input>
                        </div>
                        <div class="input-box">
                            <span class="details">E-mail</span>
