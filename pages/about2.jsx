@@ -6,28 +6,37 @@ export default function about({ data }) {
     <Container>
       <div>
         <h1>Hello, you're in about page</h1>
-        <table className="container">
-          <tbody>
-            <tr>
-              <th>N°</th>
-              <th>Nombre</th>
-              <th>Email</th>
-              <th>Telefono</th>
-            </tr>
-            <tr>
-              {data.map(({ uuid, name, first_name, email, phone }) => (
-                <div key={uuid}>
-                  <td>
-                    {" "}
-                    {name} " " {first_name}
-                  </td>
-                  <td>{email}</td>
-                  <td>{phone}</td>
-                </div>
-              ))}
-            </tr>
-          </tbody>
-        </table>
+        <div className="table-responsive">
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colSpan={2}>Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </Container>
   );
